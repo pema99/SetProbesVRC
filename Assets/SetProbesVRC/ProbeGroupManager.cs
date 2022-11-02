@@ -171,7 +171,7 @@ public class ProbeGroupManagerEditor : UnityEditor.Editor
             buttonText = "Initialize component";
         }
 
-        minimumResolution = EditorGUILayout.IntField("Minimum resolution", minimumResolution);
+        minimumResolution = EditorGUILayout.IntField("Minimum resolution (More=better, but less performant)", minimumResolution);
 
         if (GUILayout.Button(buttonText))
         {
