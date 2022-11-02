@@ -1,8 +1,5 @@
-# SetProbesVRC
-Set light probe coefficients at runtime in VRChat.
-
 # What is this
-Udon does not expose LightmapSettings.lightProbes.bakedProbes, so we cannot set probe coefficients at runtime.
+Udon does not expose LightmapSettings.lightProbes.bakedProbes, so we cannot set probe coefficients at runtime. Proof of concept and probably not very useful, but there might be useful tidbits or ideas in there.
 
 This is a proof of concept of a system that can achieve more or less this, but within the limitations of Udon.
 
